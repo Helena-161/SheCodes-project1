@@ -4,19 +4,271 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=hq, initial-scale=1.0">
-    <title>my 1st webpage</title>
+    <title>FeelFreedomTours</title>
+    <link rel="icon" href="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/602/original/logo_final.png?1615131323" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
     <style>
         body {
-            background: linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
+            text-align: center;
+            font-family: 'Love Ya Like A Sister', cursive;
+            background: linear-gradient(106.7deg, rgb(245, 167, 191) -6.2%, rgb(201, 218, 238) 46.4%, rgb(164, 240, 229) 86.4%);
         }
+           
         h1 {
-            font-family: sans-serif;
-            color: blueviolet;
+            position: relative;
+            top: -30px;
+            right: -20px;
+            font-size: 60px;
+            color: #AF2C55;
+             }
+        h2 {
+            font-size: 36px;
+            color:#455099;
         }
-    </style>
-</head>
-<body>
-   <h1>SheCode project 1</h1> 
-   <h2>here i`m gonna create my fisrt web page</h2>
+        h3 {
+            font-size: 32px;
+            color: #8a6073;
+        
+        }
+        h5 {
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 1.3;
+            color: #AF3D5C;
+            margin: 30px auto;
+            }
+        p {
+            font-size: 32px;
+            color: #c7abb7;
+
+        }
+        ul {
+            font-size: 22px;
+            color: #8a6073;
+            padding: 0;
+            text-align: justify;
+        }
+        li {
+            list-style: none;
+            margin: 15px;
+        }
+        a {
+            text-decoration: none;
+            color: #AF3D5C;
+        }
+        img {
+            display: block;
+            margin: 20px auto 0;
+            border-radius: 5px;
+        }
+       
+        iframe {
+            display: block;
+            margin: 10px auto;
+            border-radius: 5px;
+
+        }
+        button {
+            border-radius: 25px;
+            margin: 10px auto;
+            display: block;
+            background-color:#AF2C55;
+            border: 1px solid #885df1;
+            color: #885df1;
+            font-size: 22px;
+            line-height: 22px;
+            padding: 16px 24px;
+            text-decoration: none;
+            transition: all 200ms ease;
+            font-family: 'Love Ya Like A Sister', cursive;
+        }
+
+        button:hover {
+            color: #fff;
+            background: #885df1;
+        }
+        .wrapper {
+            background: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+            margin: 15px;
+            padding: 15px;
+            align-content: center;
+            border-radius: 5px;
+        }
+        .header img, h1 {
+            display: inline;
+
+        }
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: auto;
+            position: relative;
+            display: block;
+            margin: 10px auto;
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+            display: none;
+            margin: 10px;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px 10px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: all 0.6s ease;
+        }
+
+        .active, .dot:hover {
+            background-color: #717171;
+        }
+
+/* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+            </style>
+        </head>
+    <body>
+        <span class="header">
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/602/original/logo_final.png?1615131323" alt="logo" width="140px">
+        <h1>Feel Freedom Tours</h1>
+        </span>
+        <div class="wrapper">
+        <div class="list"> 
+        <h2>Hiking tours in Northern Spain</h2>
+        <h3 >One week from the Mediterranean to the Atlantic coast!</h3>
+        <hr/>
+        <p>From 2nd till 9th May</p>
+        <hr/>
+    <ul>
+        <li> 🚍🚠 All transportation from start-to-end: airport transfers, fuel, toll roads, parking, cable ways fees included.</li>
+        <li>⛺🚿 Accommodation: certified camp sites, tents or bungalows with a hot shower every day.</li>
+        <li>🍳☕ Food: breakfast, dinner and snacks on the hikes with coffee & tea, non-alcoholic drinks.</li>
+        <li>🏐🛶 Camping equipment: sleeping bags, blankets, pillows, dishes, cooking utensils, hair dryer.</li>
+        <li>⚡⚡ Informational support on requirements to participate: visa & medical insurance, tickets to/from Barcelona.</li>
+        <li>🧗🏻‍♀️🤸🏻‍♂️ Dedicated and helpful guides at any time.</li>
+        <li>👩🏽‍🤝‍👩🏻👩🏼‍🤝‍👩🏼👬👨🏿‍🤝‍👨🏾 A group of 9 nature-loving, friendly and open-minded people inkl. two guides.</li>
+        <li>🌄🌅 Unique landscapes, hike trails, viewpoints & spots for impressive pictures.</li>
+        <li>🌎🚐 An unforgettable adventure.</li>
+    </ul>
+        <button>
+            I want to Go
+        </button>
+        <iframe  width="720"
+          height="433"
+          src="https://www.youtube.com/embed/LI-RnFMd3XA"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+        </div>
+        
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+    
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/608/original/ImgGroup.jpg?1615131595" style="width:58%">
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/607/original/imgHalfDesert.jpg?1615131585" style="width:58%">
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/609/original/ImgOrdessa.jpg?1615133225" style="width:58%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/606/original/imgRiver.jpg?1615131564" style="width:58%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/603/original/imgBarcelona.jpg?1615131364" style="width:58%">
+          
+
+        <div class="mySlides fade">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/005/604/original/imgGastelugatxe.jpg?1615131373" style="width:58%">
+        </div>
+        </div>
+    <br/>
+    
+    <!-- The dots/circles -->
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </div>
+    <h5>
+        👩🏻‍💻 This page created by <stong><em><a href="https://www.linkedin.com/in/helena-stalbovska-b51435181/"
+                    target="_blank">
+                    Helena Stalbovskaya </a></em></stong>
+    </h5>
+    <script>
+        var slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+            function IwanttoGo() {
+                let name = prompt("What is your first name?");
+                let age = prompt("How old are you?");
+                if (age >= 21) {
+                alert("Thank you, " + name + ". We'll get in touch with you soon!");
+                h1.innerHTML = "Hi, " + name + ", let's Feel Freedom in tour!";
+                 } else {
+                alert("We have age resriction from 21 y.o.");
+                h1.innerHTML = "Sorry, " + name + ", you can't go now, see you in future!";
+                     }
+            }
+             let h1 = document.querySelector("h1");
+             let applyNowButton = document.querySelector("button");
+             applyNowButton.addEventListener("click", IwanttoGo);
+    </script>
 </body>
 </html>
